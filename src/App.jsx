@@ -13,44 +13,46 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "Rolex is a company that specializes in what type of product?",
+      question:
+        "component의 생명주기 동안 변경될 수 있는 정보를 담고 있는 객체는 무엇일까요?",
       answers: [
         {
-          text: "Phone",
+          text: "props",
           correct: false,
         },
         {
-          text: "Watches",
+          text: "state",
           correct: true,
         },
         {
-          text: "Food",
+          text: "Lifecycle",
           correct: false,
         },
         {
-          text: "Cosmetic",
+          text: "Redux",
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: "When did the website `Facebook` launch?",
+      question:
+        "부모 컴포넌트에서 자식 컴포넌트로 전달되는 데이터는 무엇일까요?",
       answers: [
         {
-          text: "2004",
+          text: "props",
           correct: true,
         },
         {
-          text: "2005",
+          text: "class",
           correct: false,
         },
         {
-          text: "2006",
+          text: "components",
           correct: false,
         },
         {
-          text: "2007",
+          text: "react-dom",
           correct: false,
         },
       ],
