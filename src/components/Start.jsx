@@ -12,7 +12,7 @@ export default function Start({ setUsername }) {
     <div className="start">
       <input
         className="startInput"
-        placeholder="enter your name"
+        placeholder="이름을 적어주세요"
         ref={inputRef}
       />
       <button className="startButton" onClick={handleClick}>
